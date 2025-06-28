@@ -50,7 +50,6 @@ SDN 匹配域嗅探攻击
 
 ### 1. 克隆仓库
 ```bash
-git clone [您的仓库URL]
 cd SDN_CD
 ```
 

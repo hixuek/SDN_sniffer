@@ -1,0 +1,1321 @@
+2025-06-10 15:49:52,293 - mininet - INFO - *** Stopping 1 controllers
+
+2025-06-10 15:49:52,293 - mininet - INFO - c0 
+2025-06-10 15:49:52,293 - mininet - INFO - 
+
+2025-06-10 15:49:52,293 - mininet - INFO - *** Stopping 5 links
+
+2025-06-10 15:49:52,293 - mininet - INFO - .
+2025-06-10 15:49:52,327 - mininet - INFO - .
+2025-06-10 15:49:52,353 - mininet - INFO - .
+2025-06-10 15:49:52,380 - mininet - INFO - .
+2025-06-10 15:49:52,409 - mininet - INFO - .
+2025-06-10 15:49:52,436 - mininet - INFO - 
+
+2025-06-10 15:49:52,436 - mininet - INFO - *** Stopping 2 switches
+
+2025-06-10 15:49:52,663 - mininet - INFO - s1 
+2025-06-10 15:49:52,663 - mininet - INFO - s2 
+2025-06-10 15:49:52,663 - mininet - INFO - 
+
+2025-06-10 15:49:52,663 - mininet - INFO - *** Stopping 4 hosts
+
+2025-06-10 15:49:52,663 - mininet - INFO - h1 
+2025-06-10 15:49:52,664 - mininet - INFO - h2 
+2025-06-10 15:49:52,665 - mininet - INFO - h3 
+2025-06-10 15:49:52,666 - mininet - INFO - h4 
+2025-06-10 15:49:52,666 - mininet - INFO - 
+*** Done
+
+[DEBUG] attacker.py 被 import 了
+[DEBUG] AttackSimulator 实例化了
+2025-06-10 15:50:14,122 - mininet - INFO - *** Creating network
+
+2025-06-10 15:50:14,123 - mininet - INFO - *** Adding controller
+
+2025-06-10 15:50:14,157 - mininet - INFO - *** Adding hosts:
+
+2025-06-10 15:50:14,187 - mininet - INFO - h1 
+2025-06-10 15:50:14,214 - mininet - INFO - h2 
+2025-06-10 15:50:14,241 - mininet - INFO - h3 
+2025-06-10 15:50:14,262 - mininet - INFO - h4 
+2025-06-10 15:50:14,262 - mininet - INFO - 
+*** Adding switches:
+
+2025-06-10 15:50:14,308 - mininet - INFO - s1 
+2025-06-10 15:50:14,332 - mininet - INFO - s2 
+2025-06-10 15:50:14,333 - mininet - INFO - 
+*** Adding links:
+
+2025-06-10 15:50:14,356 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,384 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,398 - mininet - INFO - (h1, s1) 
+2025-06-10 15:50:14,420 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,449 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,462 - mininet - INFO - (h2, s1) 
+2025-06-10 15:50:14,485 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,512 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,525 - mininet - INFO - (h3, s2) 
+2025-06-10 15:50:14,548 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,579 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,592 - mininet - INFO - (h4, s2) 
+2025-06-10 15:50:14,617 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,647 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,661 - mininet - INFO - (s1, s2) 
+2025-06-10 15:50:14,661 - mininet - INFO - 
+
+2025-06-10 15:50:14,661 - mininet - INFO - *** Configuring hosts
+
+2025-06-10 15:50:14,661 - mininet - INFO - h1 
+2025-06-10 15:50:14,683 - mininet - INFO - h2 
+2025-06-10 15:50:14,704 - mininet - INFO - h3 
+2025-06-10 15:50:14,725 - mininet - INFO - h4 
+2025-06-10 15:50:14,747 - mininet - INFO - 
+
+2025-06-10 15:50:14,747 - mininet - INFO - *** Starting controller
+
+2025-06-10 15:50:14,747 - mininet - INFO - c0 
+2025-06-10 15:50:14,748 - mininet - INFO - 
+
+2025-06-10 15:50:14,748 - mininet - INFO - *** Starting 2 switches
+
+2025-06-10 15:50:14,748 - mininet - INFO - s1 
+2025-06-10 15:50:14,749 - mininet - INFO - s2 
+2025-06-10 15:50:14,749 - mininet - INFO - ...
+2025-06-10 15:50:14,915 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,940 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,967 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:14,995 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:15,020 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:15,048 - mininet - INFO - (10.00Mbit) 
+2025-06-10 15:50:15,061 - mininet - INFO - 
+
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+2025-06-10 16:02:56,718 - mininet - INFO - *** Stopping 1 controllers
+
+2025-06-10 16:02:56,718 - mininet - INFO - c0 
+2025-06-10 16:02:56,718 - mininet - INFO - 
+
+2025-06-10 16:02:56,719 - mininet - INFO - *** Stopping 5 links
+
+2025-06-10 16:02:56,719 - mininet - INFO - .
+2025-06-10 16:02:56,750 - mininet - INFO - .
+2025-06-10 16:02:56,775 - mininet - INFO - .
+2025-06-10 16:02:56,806 - mininet - INFO - .
+2025-06-10 16:02:56,850 - mininet - INFO - .
+2025-06-10 16:02:56,880 - mininet - INFO - 
+
+2025-06-10 16:02:56,881 - mininet - INFO - *** Stopping 2 switches
+
+2025-06-10 16:02:57,137 - mininet - INFO - s1 
+2025-06-10 16:02:57,137 - mininet - INFO - s2 
+2025-06-10 16:02:57,138 - mininet - INFO - 
+
+2025-06-10 16:02:57,138 - mininet - INFO - *** Stopping 4 hosts
+
+2025-06-10 16:02:57,138 - mininet - INFO - h1 
+2025-06-10 16:02:57,139 - mininet - INFO - h2 
+2025-06-10 16:02:57,140 - mininet - INFO - h3 
+2025-06-10 16:02:57,140 - mininet - INFO - h4 
+2025-06-10 16:02:57,141 - mininet - INFO - 
+*** Done
+
+[DEBUG] attacker.py 被 import 了
+[DEBUG] AttackSimulator 实例化了
+2025-06-10 16:03:12,425 - mininet - INFO - *** Creating network
+
+2025-06-10 16:03:12,426 - mininet - INFO - *** Adding controller
+
+2025-06-10 16:03:12,459 - mininet - INFO - *** Adding hosts:
+
+2025-06-10 16:03:12,491 - mininet - INFO - h1 
+2025-06-10 16:03:12,517 - mininet - INFO - h2 
+2025-06-10 16:03:12,544 - mininet - INFO - h3 
+2025-06-10 16:03:12,565 - mininet - INFO - h4 
+2025-06-10 16:03:12,566 - mininet - INFO - 
+*** Adding switches:
+
+2025-06-10 16:03:12,612 - mininet - INFO - s1 
+2025-06-10 16:03:12,637 - mininet - INFO - s2 
+2025-06-10 16:03:12,638 - mininet - INFO - 
+*** Adding links:
+
+2025-06-10 16:03:12,661 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,688 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,700 - mininet - INFO - (h1, s1) 
+2025-06-10 16:03:12,722 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,751 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,763 - mininet - INFO - (h2, s1) 
+2025-06-10 16:03:12,787 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,815 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,828 - mininet - INFO - (h3, s2) 
+2025-06-10 16:03:12,852 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,879 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,892 - mininet - INFO - (h4, s2) 
+2025-06-10 16:03:12,917 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,952 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:12,965 - mininet - INFO - (s1, s2) 
+2025-06-10 16:03:12,966 - mininet - INFO - 
+
+2025-06-10 16:03:12,966 - mininet - INFO - *** Configuring hosts
+
+2025-06-10 16:03:12,966 - mininet - INFO - h1 
+2025-06-10 16:03:12,986 - mininet - INFO - h2 
+2025-06-10 16:03:13,007 - mininet - INFO - h3 
+2025-06-10 16:03:13,028 - mininet - INFO - h4 
+2025-06-10 16:03:13,051 - mininet - INFO - 
+
+2025-06-10 16:03:13,051 - mininet - INFO - *** Starting controller
+
+2025-06-10 16:03:13,052 - mininet - INFO - c0 
+2025-06-10 16:03:13,052 - mininet - INFO - 
+
+2025-06-10 16:03:13,052 - mininet - INFO - *** Starting 2 switches
+
+2025-06-10 16:03:13,052 - mininet - INFO - s1 
+2025-06-10 16:03:13,052 - mininet - INFO - s2 
+2025-06-10 16:03:13,053 - mininet - INFO - ...
+2025-06-10 16:03:13,211 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:13,235 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:13,263 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:13,289 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:13,316 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:13,344 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:03:13,356 - mininet - INFO - 
+
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+2025-06-10 16:10:07,440 - mininet - INFO - *** Stopping 1 controllers
+
+2025-06-10 16:10:07,441 - mininet - INFO - c0 
+2025-06-10 16:10:07,441 - mininet - INFO - 
+
+2025-06-10 16:10:07,441 - mininet - INFO - *** Stopping 5 links
+
+2025-06-10 16:10:07,441 - mininet - INFO - .
+2025-06-10 16:10:07,476 - mininet - INFO - .
+2025-06-10 16:10:07,504 - mininet - INFO - .
+2025-06-10 16:10:07,535 - mininet - INFO - .
+2025-06-10 16:10:07,569 - mininet - INFO - .
+2025-06-10 16:10:07,610 - mininet - INFO - 
+
+2025-06-10 16:10:07,610 - mininet - INFO - *** Stopping 2 switches
+
+2025-06-10 16:10:07,864 - mininet - INFO - s1 
+2025-06-10 16:10:07,864 - mininet - INFO - s2 
+2025-06-10 16:10:07,864 - mininet - INFO - 
+
+2025-06-10 16:10:07,864 - mininet - INFO - *** Stopping 4 hosts
+
+2025-06-10 16:10:07,864 - mininet - INFO - h1 
+2025-06-10 16:10:07,865 - mininet - INFO - h2 
+2025-06-10 16:10:07,866 - mininet - INFO - h3 
+2025-06-10 16:10:07,867 - mininet - INFO - h4 
+2025-06-10 16:10:07,868 - mininet - INFO - 
+*** Done
+
+[DEBUG] attacker.py 被 import 了
+[DEBUG] AttackSimulator 实例化了
+2025-06-10 16:10:25,467 - mininet - INFO - *** Creating network
+
+2025-06-10 16:10:25,467 - mininet - INFO - *** Adding controller
+
+2025-06-10 16:10:25,502 - mininet - INFO - *** Adding hosts:
+
+2025-06-10 16:10:25,529 - mininet - INFO - h1 
+2025-06-10 16:10:25,553 - mininet - INFO - h2 
+2025-06-10 16:10:25,575 - mininet - INFO - h3 
+2025-06-10 16:10:25,597 - mininet - INFO - h4 
+2025-06-10 16:10:25,598 - mininet - INFO - 
+*** Adding switches:
+
+2025-06-10 16:10:25,642 - mininet - INFO - s1 
+2025-06-10 16:10:25,669 - mininet - INFO - s2 
+2025-06-10 16:10:25,669 - mininet - INFO - 
+*** Adding links:
+
+2025-06-10 16:10:25,693 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,720 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,733 - mininet - INFO - (h1, s1) 
+2025-06-10 16:10:25,756 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,784 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,797 - mininet - INFO - (h2, s1) 
+2025-06-10 16:10:25,819 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,849 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,861 - mininet - INFO - (h3, s2) 
+2025-06-10 16:10:25,883 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,914 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,926 - mininet - INFO - (h4, s2) 
+2025-06-10 16:10:25,951 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,982 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:25,996 - mininet - INFO - (s1, s2) 
+2025-06-10 16:10:25,996 - mininet - INFO - 
+
+2025-06-10 16:10:25,996 - mininet - INFO - *** Configuring hosts
+
+2025-06-10 16:10:25,996 - mininet - INFO - h1 
+2025-06-10 16:10:26,017 - mininet - INFO - h2 
+2025-06-10 16:10:26,036 - mininet - INFO - h3 
+2025-06-10 16:10:26,057 - mininet - INFO - h4 
+2025-06-10 16:10:26,077 - mininet - INFO - 
+
+2025-06-10 16:10:26,078 - mininet - INFO - *** Starting controller
+
+2025-06-10 16:10:26,078 - mininet - INFO - c0 
+2025-06-10 16:10:26,078 - mininet - INFO - 
+
+2025-06-10 16:10:26,078 - mininet - INFO - *** Starting 2 switches
+
+2025-06-10 16:10:26,078 - mininet - INFO - s1 
+2025-06-10 16:10:26,079 - mininet - INFO - s2 
+2025-06-10 16:10:26,080 - mininet - INFO - ...
+2025-06-10 16:10:26,208 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:26,234 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:26,261 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:26,288 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:26,315 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:26,342 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:10:26,354 - mininet - INFO - 
+
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+2025-06-10 16:55:03,001 - mininet - INFO - *** Stopping 1 controllers
+
+2025-06-10 16:55:03,002 - mininet - INFO - c0 
+2025-06-10 16:55:03,002 - mininet - INFO - 
+
+2025-06-10 16:55:03,002 - mininet - INFO - *** Stopping 5 links
+
+2025-06-10 16:55:03,002 - mininet - INFO - .
+2025-06-10 16:55:03,027 - mininet - INFO - .
+2025-06-10 16:55:03,053 - mininet - INFO - .
+2025-06-10 16:55:03,100 - mininet - INFO - .
+2025-06-10 16:55:03,126 - mininet - INFO - .
+2025-06-10 16:55:03,151 - mininet - INFO - 
+
+2025-06-10 16:55:03,151 - mininet - INFO - *** Stopping 2 switches
+
+2025-06-10 16:55:03,336 - mininet - INFO - s1 
+2025-06-10 16:55:03,336 - mininet - INFO - s2 
+2025-06-10 16:55:03,336 - mininet - INFO - 
+
+2025-06-10 16:55:03,336 - mininet - INFO - *** Stopping 4 hosts
+
+2025-06-10 16:55:03,336 - mininet - INFO - h1 
+2025-06-10 16:55:03,337 - mininet - INFO - h2 
+2025-06-10 16:55:03,337 - mininet - INFO - h3 
+2025-06-10 16:55:03,338 - mininet - INFO - h4 
+2025-06-10 16:55:03,338 - mininet - INFO - 
+*** Done
+
+[DEBUG] attacker.py 被 import 了
+[DEBUG] AttackSimulator 实例化了
+2025-06-10 16:56:07,128 - mininet - INFO - *** Creating network
+
+2025-06-10 16:56:07,128 - mininet - INFO - *** Adding controller
+
+2025-06-10 16:56:07,165 - mininet - INFO - *** Adding hosts:
+
+2025-06-10 16:56:07,194 - mininet - INFO - h1 
+2025-06-10 16:56:07,207 - mininet - INFO - h2 
+2025-06-10 16:56:07,229 - mininet - INFO - h3 
+2025-06-10 16:56:07,238 - mininet - INFO - h4 
+2025-06-10 16:56:07,238 - mininet - INFO - 
+*** Adding switches:
+
+2025-06-10 16:56:07,259 - mininet - INFO - s1 
+2025-06-10 16:56:07,274 - mininet - INFO - s2 
+2025-06-10 16:56:07,274 - mininet - INFO - 
+*** Adding links:
+
+2025-06-10 16:56:07,290 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,316 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,323 - mininet - INFO - (h1, s1) 
+2025-06-10 16:56:07,337 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,360 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,372 - mininet - INFO - (h2, s1) 
+2025-06-10 16:56:07,388 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,419 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,428 - mininet - INFO - (h3, s2) 
+2025-06-10 16:56:07,452 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,473 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,479 - mininet - INFO - (h4, s2) 
+2025-06-10 16:56:07,495 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,518 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,523 - mininet - INFO - (s1, s2) 
+2025-06-10 16:56:07,523 - mininet - INFO - 
+
+2025-06-10 16:56:07,523 - mininet - INFO - *** Configuring hosts
+
+2025-06-10 16:56:07,523 - mininet - INFO - h1 
+2025-06-10 16:56:07,533 - mininet - INFO - h2 
+2025-06-10 16:56:07,545 - mininet - INFO - h3 
+2025-06-10 16:56:07,557 - mininet - INFO - h4 
+2025-06-10 16:56:07,571 - mininet - INFO - 
+
+2025-06-10 16:56:07,571 - mininet - INFO - *** Starting controller
+
+2025-06-10 16:56:07,571 - mininet - INFO - c0 
+2025-06-10 16:56:07,571 - mininet - INFO - 
+
+2025-06-10 16:56:07,571 - mininet - INFO - *** Starting 2 switches
+
+2025-06-10 16:56:07,571 - mininet - INFO - s1 
+2025-06-10 16:56:07,572 - mininet - INFO - s2 
+2025-06-10 16:56:07,572 - mininet - INFO - ...
+2025-06-10 16:56:07,646 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,657 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,668 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,685 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,702 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,723 - mininet - INFO - (10.00Mbit) 
+2025-06-10 16:56:07,729 - mininet - INFO - 
+
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+2025-06-10 17:09:42,484 - mininet - INFO - *** Stopping 1 controllers
+
+2025-06-10 17:09:42,484 - mininet - INFO - c0 
+2025-06-10 17:09:42,485 - mininet - INFO - 
+
+2025-06-10 17:09:42,485 - mininet - INFO - *** Stopping 5 links
+
+2025-06-10 17:09:42,485 - mininet - INFO - .
+2025-06-10 17:09:42,515 - mininet - INFO - .
+2025-06-10 17:09:42,544 - mininet - INFO - .
+2025-06-10 17:09:42,571 - mininet - INFO - .
+2025-06-10 17:09:42,600 - mininet - INFO - .
+2025-06-10 17:09:42,626 - mininet - INFO - 
+
+2025-06-10 17:09:42,627 - mininet - INFO - *** Stopping 2 switches
+
+2025-06-10 17:09:42,783 - mininet - INFO - s1 
+2025-06-10 17:09:42,784 - mininet - INFO - s2 
+2025-06-10 17:09:42,784 - mininet - INFO - 
+
+2025-06-10 17:09:42,784 - mininet - INFO - *** Stopping 4 hosts
+
+2025-06-10 17:09:42,784 - mininet - INFO - h1 
+2025-06-10 17:09:42,784 - mininet - INFO - h2 
+2025-06-10 17:09:42,785 - mininet - INFO - h3 
+2025-06-10 17:09:42,786 - mininet - INFO - h4 
+2025-06-10 17:09:42,786 - mininet - INFO - 
+*** Done
+
+[DEBUG] attacker.py 被 import 了
+[DEBUG] AttackSimulator 实例化了
+2025-06-10 17:10:18,081 - mininet - INFO - *** Creating network
+
+2025-06-10 17:10:18,081 - mininet - INFO - *** Adding controller
+
+2025-06-10 17:10:18,113 - mininet - INFO - *** Adding hosts:
+
+2025-06-10 17:10:18,142 - mininet - INFO - h1 
+2025-06-10 17:10:18,160 - mininet - INFO - h2 
+2025-06-10 17:10:18,178 - mininet - INFO - h3 
+2025-06-10 17:10:18,200 - mininet - INFO - h4 
+2025-06-10 17:10:18,201 - mininet - INFO - 
+*** Adding switches:
+
+2025-06-10 17:10:18,242 - mininet - INFO - s1 
+2025-06-10 17:10:18,262 - mininet - INFO - s2 
+2025-06-10 17:10:18,262 - mininet - INFO - 
+*** Adding links:
+
+2025-06-10 17:10:18,280 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,305 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,316 - mininet - INFO - (h1, s1) 
+2025-06-10 17:10:18,330 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,349 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,358 - mininet - INFO - (h2, s1) 
+2025-06-10 17:10:18,375 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,400 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,409 - mininet - INFO - (h3, s2) 
+2025-06-10 17:10:18,425 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,448 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,457 - mininet - INFO - (h4, s2) 
+2025-06-10 17:10:18,476 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,507 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,513 - mininet - INFO - (s1, s2) 
+2025-06-10 17:10:18,513 - mininet - INFO - 
+
+2025-06-10 17:10:18,513 - mininet - INFO - *** Configuring hosts
+
+2025-06-10 17:10:18,513 - mininet - INFO - h1 
+2025-06-10 17:10:18,529 - mininet - INFO - h2 
+2025-06-10 17:10:18,546 - mininet - INFO - h3 
+2025-06-10 17:10:18,564 - mininet - INFO - h4 
+2025-06-10 17:10:18,584 - mininet - INFO - 
+
+2025-06-10 17:10:18,584 - mininet - INFO - *** Starting controller
+
+2025-06-10 17:10:18,584 - mininet - INFO - c0 
+2025-06-10 17:10:18,584 - mininet - INFO - 
+
+2025-06-10 17:10:18,584 - mininet - INFO - *** Starting 2 switches
+
+2025-06-10 17:10:18,584 - mininet - INFO - s1 
+2025-06-10 17:10:18,585 - mininet - INFO - s2 
+2025-06-10 17:10:18,586 - mininet - INFO - ...
+2025-06-10 17:10:18,688 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,699 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,714 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,739 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,762 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,786 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:10:18,797 - mininet - INFO - 
+
+[发包日志] 字段: eth_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: eth_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_src，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: ip_dst，典型命令: ping -c 1 -W 1 -i 0.1 10.0.0.2
+[发包日志] 字段: tcp_src，典型命令: /usr/sbin/hping3 -S -p 80 -s 1024 -c 1 --fast 10.0.0.2
+[发包日志] 字段: tcp_dst，典型命令: /usr/sbin/hping3 -S -s 12345 -p 80 -c 1 --fast 10.0.0.2
+[发包日志] 字段: ip_proto，典型命令: /usr/sbin/hping3 -S -p 80 -c 1 --fast 10.0.0.2
+2025-06-10 17:37:22,393 - mininet - INFO - *** Stopping 1 controllers
+
+2025-06-10 17:37:22,394 - mininet - INFO - c0 
+2025-06-10 17:37:22,394 - mininet - INFO - 
+
+2025-06-10 17:37:22,394 - mininet - INFO - *** Stopping 5 links
+
+2025-06-10 17:37:22,394 - mininet - INFO - .
+2025-06-10 17:37:22,430 - mininet - INFO - .
+2025-06-10 17:37:22,461 - mininet - INFO - .
+2025-06-10 17:37:22,490 - mininet - INFO - .
+2025-06-10 17:37:22,514 - mininet - INFO - .
+2025-06-10 17:37:22,539 - mininet - INFO - 
+
+2025-06-10 17:37:22,540 - mininet - INFO - *** Stopping 2 switches
+
+2025-06-10 17:37:22,727 - mininet - INFO - s1 
+2025-06-10 17:37:22,727 - mininet - INFO - s2 
+2025-06-10 17:37:22,727 - mininet - INFO - 
+
+2025-06-10 17:37:22,727 - mininet - INFO - *** Stopping 4 hosts
+
+2025-06-10 17:37:22,727 - mininet - INFO - h1 
+2025-06-10 17:37:22,728 - mininet - INFO - h2 
+2025-06-10 17:37:22,729 - mininet - INFO - h3 
+2025-06-10 17:37:22,729 - mininet - INFO - h4 
+2025-06-10 17:37:22,730 - mininet - INFO - 
+*** Done
+
+[DEBUG] attacker.py 被 import 了
+[DEBUG] AttackSimulator 实例化了
+2025-06-10 17:37:41,030 - mininet - INFO - *** Creating network
+
+2025-06-10 17:37:41,030 - mininet - INFO - *** Adding controller
+
+2025-06-10 17:37:41,060 - mininet - INFO - *** Adding hosts:
+
+2025-06-10 17:37:41,084 - mininet - INFO - h1 
+2025-06-10 17:37:41,101 - mininet - INFO - h2 
+2025-06-10 17:37:41,120 - mininet - INFO - h3 
+2025-06-10 17:37:41,138 - mininet - INFO - h4 
+2025-06-10 17:37:41,138 - mininet - INFO - 
+*** Adding switches:
+
+2025-06-10 17:37:41,177 - mininet - INFO - s1 
+2025-06-10 17:37:41,187 - mininet - INFO - s2 
+2025-06-10 17:37:41,187 - mininet - INFO - 
+*** Adding links:
+
+2025-06-10 17:37:41,203 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,224 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,236 - mininet - INFO - (h1, s1) 
+2025-06-10 17:37:41,250 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,272 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,279 - mininet - INFO - (h2, s1) 
+2025-06-10 17:37:41,294 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,320 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,331 - mininet - INFO - (h3, s2) 
+2025-06-10 17:37:41,349 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,370 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,376 - mininet - INFO - (h4, s2) 
+2025-06-10 17:37:41,395 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,425 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,432 - mininet - INFO - (s1, s2) 
+2025-06-10 17:37:41,432 - mininet - INFO - 
+
+2025-06-10 17:37:41,432 - mininet - INFO - *** Configuring hosts
+
+2025-06-10 17:37:41,432 - mininet - INFO - h1 
+2025-06-10 17:37:41,442 - mininet - INFO - h2 
+2025-06-10 17:37:41,453 - mininet - INFO - h3 
+2025-06-10 17:37:41,471 - mininet - INFO - h4 
+2025-06-10 17:37:41,488 - mininet - INFO - 
+
+2025-06-10 17:37:41,489 - mininet - INFO - *** Starting controller
+
+2025-06-10 17:37:41,489 - mininet - INFO - c0 
+2025-06-10 17:37:41,489 - mininet - INFO - 
+
+2025-06-10 17:37:41,489 - mininet - INFO - *** Starting 2 switches
+
+2025-06-10 17:37:41,489 - mininet - INFO - s1 
+2025-06-10 17:37:41,490 - mininet - INFO - s2 
+2025-06-10 17:37:41,491 - mininet - INFO - ...
+2025-06-10 17:37:41,571 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,580 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,589 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,598 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,607 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,616 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:37:41,620 - mininet - INFO - 
+
+2025-06-10 17:37:58,055 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:37:58,062 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:37:58,063 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:37:58,068 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:37:58,072 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:37:58,072 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:37:59,094 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,094 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:37:59,094 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,195 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,195 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:37:59,196 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,296 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,296 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:37:59,297 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,397 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,397 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:37:59,398 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,498 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,499 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:37:59,499 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,600 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,600 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:37:59,601 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,702 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,703 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:37:59,703 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,804 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,804 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:37:59,805 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,906 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:37:59,906 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:37:59,907 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:00,008 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:00,008 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:00,008 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:00,108 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:38:00,211 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:00,214 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:00,214 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:00,215 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:00,217 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:00,218 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:01,252 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,252 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:01,253 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,354 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,354 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:01,355 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,456 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,456 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:01,457 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,558 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,558 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:01,558 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,660 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,660 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:01,661 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,762 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,762 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:01,763 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,863 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,864 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:01,864 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,965 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:01,965 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:01,965 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:02,066 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:02,067 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:02,068 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:02,168 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:02,168 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:02,168 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:02,269 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:38:02,371 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:02,374 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:02,375 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:02,378 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:02,380 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:02,380 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:03,404 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,404 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:03,404 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,505 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,505 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:03,506 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,607 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,607 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:03,607 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,708 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,708 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:03,709 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,810 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,810 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:03,810 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,911 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:03,912 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:03,912 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:04,013 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:04,013 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:04,013 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:04,114 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:04,114 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:04,114 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:04,215 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:04,216 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:04,216 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:04,316 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:04,316 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:04,317 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:04,417 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:38:04,518 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:04,520 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:04,520 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:04,520 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:04,521 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:04,521 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:05,550 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:05,550 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:05,550 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:05,651 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:05,651 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:05,651 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:05,752 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:05,752 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:05,753 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:05,854 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:05,854 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:05,855 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:05,955 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:05,956 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:05,956 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,056 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,056 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:06,056 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,157 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,157 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:06,157 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,259 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,259 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:06,260 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,360 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,361 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:06,361 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,461 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,461 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:06,461 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:06,561 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:38:06,662 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:06,664 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:06,664 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:06,665 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:06,665 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:06,666 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:07,722 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=0, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.7/1.7/1.7 ms
+
+2025-06-10 17:38:07,865 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=1, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=0.8 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.8/0.8/0.8 ms
+
+2025-06-10 17:38:08,010 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=2, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.6/1.6/1.6 ms
+
+2025-06-10 17:38:08,168 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=3, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.6/1.6/1.6 ms
+
+2025-06-10 17:38:08,324 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=4, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.6/1.6/1.6 ms
+
+2025-06-10 17:38:08,487 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=5, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=2.5 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 2.5/2.5/2.5 ms
+
+2025-06-10 17:38:08,631 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=6, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=0.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.6/0.6/0.6 ms
+
+2025-06-10 17:38:08,787 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=7, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.5 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.5/1.5/1.5 ms
+
+2025-06-10 17:38:08,943 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=8, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.7/1.7/1.7 ms
+
+2025-06-10 17:38:09,084 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=9, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.8 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.8/1.8/1.8 ms
+
+2025-06-10 17:38:09,185 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:38:09,287 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:09,290 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:09,291 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:09,292 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:09,294 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:09,295 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:10,345 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=0, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=420 flags=RA seq=0 win=0 rtt=1.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.7/1.7/1.7 ms
+
+2025-06-10 17:38:10,485 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=1, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=987 flags=RA seq=0 win=0 rtt=0.8 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.8/0.8/0.8 ms
+
+2025-06-10 17:38:10,639 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=2, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=682 flags=RA seq=0 win=0 rtt=0.5 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.5/0.5/0.5 ms
+
+2025-06-10 17:38:10,787 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=3, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=487 flags=RA seq=0 win=0 rtt=1.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.7/1.7/1.7 ms
+
+2025-06-10 17:38:10,942 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=4, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=280 flags=RA seq=0 win=0 rtt=1.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.7/1.7/1.7 ms
+
+2025-06-10 17:38:11,103 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=5, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=386 flags=RA seq=0 win=0 rtt=1.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.7/1.7/1.7 ms
+
+2025-06-10 17:38:11,270 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=6, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=1018 flags=RA seq=0 win=0 rtt=2.8 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 2.8/2.8/2.8 ms
+
+2025-06-10 17:38:11,426 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=7, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=744 flags=RA seq=0 win=0 rtt=2.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 2.6/2.6/2.6 ms
+
+2025-06-10 17:38:11,577 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=8, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=535 flags=RA seq=0 win=0 rtt=1.5 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.5/1.5/1.5 ms
+
+2025-06-10 17:38:11,725 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=9, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=343 flags=RA seq=0 win=0 rtt=1.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.6/1.6/1.6 ms
+
+2025-06-10 17:38:11,825 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:38:11,927 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:11,931 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:11,932 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:11,933 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:38:11,935 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:38:11,935 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:38:12,956 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:12,956 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:13,528 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=0
+2025-06-10 17:38:14,157 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=1
+2025-06-10 17:38:14,157 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:14,699 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=1
+2025-06-10 17:38:15,326 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=2
+2025-06-10 17:38:15,327 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:15,868 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=2
+2025-06-10 17:38:15,968 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:15,968 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:16,492 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=3
+2025-06-10 17:38:16,593 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:16,593 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:17,121 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=4
+2025-06-10 17:38:17,751 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=5
+2025-06-10 17:38:17,752 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:18,282 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=5
+2025-06-10 17:38:18,915 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=6
+2025-06-10 17:38:18,916 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:19,449 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=6
+2025-06-10 17:38:19,550 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:19,550 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:19,551 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:20,188 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=8
+2025-06-10 17:38:20,189 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:20,189 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:38:20,813 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=9
+2025-06-10 17:38:20,813 - attacker - WARNING - [MININET] Scapy发送失败，准备 fallback 使用 ping 命令
+2025-06-10 17:38:21,340 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=9
+2025-06-10 17:38:21,441 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:40:43,993 - mininet - INFO - *** Stopping 1 controllers
+
+2025-06-10 17:40:43,994 - mininet - INFO - c0 
+2025-06-10 17:40:43,994 - mininet - INFO - 
+
+2025-06-10 17:40:43,994 - mininet - INFO - *** Stopping 5 links
+
+2025-06-10 17:40:43,994 - mininet - INFO - .
+2025-06-10 17:40:44,028 - mininet - INFO - .
+2025-06-10 17:40:44,049 - mininet - INFO - .
+2025-06-10 17:40:44,077 - mininet - INFO - .
+2025-06-10 17:40:44,104 - mininet - INFO - .
+2025-06-10 17:40:44,127 - mininet - INFO - 
+
+2025-06-10 17:40:44,127 - mininet - INFO - *** Stopping 2 switches
+
+2025-06-10 17:40:44,304 - mininet - INFO - s1 
+2025-06-10 17:40:44,305 - mininet - INFO - s2 
+2025-06-10 17:40:44,305 - mininet - INFO - 
+
+2025-06-10 17:40:44,305 - mininet - INFO - *** Stopping 4 hosts
+
+2025-06-10 17:40:44,305 - mininet - INFO - h1 
+2025-06-10 17:40:44,306 - mininet - INFO - h2 
+2025-06-10 17:40:44,306 - mininet - INFO - h3 
+2025-06-10 17:40:44,307 - mininet - INFO - h4 
+2025-06-10 17:40:44,307 - mininet - INFO - 
+*** Done
+
+[DEBUG] attacker.py 被 import 了
+[DEBUG] AttackSimulator 实例化了
+2025-06-10 17:41:04,367 - mininet - INFO - *** Creating network
+
+2025-06-10 17:41:04,367 - mininet - INFO - *** Adding controller
+
+2025-06-10 17:41:04,403 - mininet - INFO - *** Adding hosts:
+
+2025-06-10 17:41:04,430 - mininet - INFO - h1 
+2025-06-10 17:41:04,450 - mininet - INFO - h2 
+2025-06-10 17:41:04,469 - mininet - INFO - h3 
+2025-06-10 17:41:04,487 - mininet - INFO - h4 
+2025-06-10 17:41:04,487 - mininet - INFO - 
+*** Adding switches:
+
+2025-06-10 17:41:04,519 - mininet - INFO - s1 
+2025-06-10 17:41:04,538 - mininet - INFO - s2 
+2025-06-10 17:41:04,538 - mininet - INFO - 
+*** Adding links:
+
+2025-06-10 17:41:04,558 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,585 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,595 - mininet - INFO - (h1, s1) 
+2025-06-10 17:41:04,611 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,635 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,645 - mininet - INFO - (h2, s1) 
+2025-06-10 17:41:04,666 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,691 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,699 - mininet - INFO - (h3, s2) 
+2025-06-10 17:41:04,716 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,739 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,749 - mininet - INFO - (h4, s2) 
+2025-06-10 17:41:04,770 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,800 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,808 - mininet - INFO - (s1, s2) 
+2025-06-10 17:41:04,809 - mininet - INFO - 
+
+2025-06-10 17:41:04,809 - mininet - INFO - *** Configuring hosts
+
+2025-06-10 17:41:04,809 - mininet - INFO - h1 
+2025-06-10 17:41:04,823 - mininet - INFO - h2 
+2025-06-10 17:41:04,841 - mininet - INFO - h3 
+2025-06-10 17:41:04,858 - mininet - INFO - h4 
+2025-06-10 17:41:04,876 - mininet - INFO - 
+
+2025-06-10 17:41:04,877 - mininet - INFO - *** Starting controller
+
+2025-06-10 17:41:04,877 - mininet - INFO - c0 
+2025-06-10 17:41:04,877 - mininet - INFO - 
+
+2025-06-10 17:41:04,877 - mininet - INFO - *** Starting 2 switches
+
+2025-06-10 17:41:04,877 - mininet - INFO - s1 
+2025-06-10 17:41:04,878 - mininet - INFO - s2 
+2025-06-10 17:41:04,879 - mininet - INFO - ...
+2025-06-10 17:41:04,948 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,957 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,967 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,977 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,986 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:04,996 - mininet - INFO - (10.00Mbit) 
+2025-06-10 17:41:05,002 - mininet - INFO - 
+
+2025-06-10 17:41:17,939 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:17,947 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:17,948 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:17,950 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:17,955 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:17,956 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:18,987 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,088 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,189 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,291 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,392 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,493 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,594 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,695 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,796 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,897 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:19,997 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:41:20,098 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:20,100 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:20,100 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:20,101 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:20,103 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:20,104 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:21,120 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:21,221 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:21,323 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:21,424 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:21,525 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:21,627 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:21,728 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:21,829 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:21,930 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:22,031 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:22,131 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:41:22,233 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:22,236 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:22,237 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:22,238 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:22,240 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:22,240 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:23,261 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:23,362 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:23,462 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:23,564 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:23,665 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:23,766 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:23,867 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:23,968 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:24,069 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:24,170 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:24,271 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:41:24,373 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:24,377 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:24,378 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:24,379 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:24,381 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:24,381 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:25,394 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:25,495 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:25,596 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:25,697 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:25,798 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:25,899 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:26,000 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:26,101 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:26,202 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:26,303 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:26,403 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:41:26,505 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:26,509 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:26,509 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:26,513 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:26,514 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:26,515 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:27,595 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=0, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=3.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 3.6/3.6/3.6 ms
+
+2025-06-10 17:41:27,758 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=1, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=0.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.7/0.7/0.7 ms
+
+2025-06-10 17:41:27,906 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=2, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=0.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.7/0.7/0.7 ms
+
+2025-06-10 17:41:28,075 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=3, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=2.9 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 2.9/2.9/2.9 ms
+
+2025-06-10 17:41:28,233 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=4, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=0.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.7/0.7/0.7 ms
+
+2025-06-10 17:41:28,392 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=5, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=0.8 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.8/0.8/0.8 ms
+
+2025-06-10 17:41:28,560 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=6, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.7/1.7/1.7 ms
+
+2025-06-10 17:41:28,724 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=7, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.6/1.6/1.6 ms
+
+2025-06-10 17:41:28,883 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=8, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=2.8 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 2.8/2.8/2.8 ms
+
+2025-06-10 17:41:29,050 - attacker - WARNING - [MININET] 未收到回复: tcp_src, seq=9, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=80 flags=RA seq=0 win=0 rtt=1.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.7/1.7/1.7 ms
+
+2025-06-10 17:41:29,150 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:41:29,253 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:29,257 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:29,258 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:29,259 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:29,261 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:29,262 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:30,332 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=0, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=238 flags=RA seq=0 win=0 rtt=1.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.6/1.6/1.6 ms
+
+2025-06-10 17:41:30,489 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=1, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=451 flags=RA seq=0 win=0 rtt=0.9 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.9/0.9/0.9 ms
+
+2025-06-10 17:41:30,649 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=2, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=62 flags=RA seq=0 win=0 rtt=2.6 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 2.6/2.6/2.6 ms
+
+2025-06-10 17:41:30,811 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=3, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=129 flags=RA seq=0 win=0 rtt=1.5 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.5/1.5/1.5 ms
+
+2025-06-10 17:41:30,971 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=4, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=815 flags=RA seq=0 win=0 rtt=1.8 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.8/1.8/1.8 ms
+
+2025-06-10 17:41:31,130 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=5, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=119 flags=RA seq=0 win=0 rtt=1.5 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.5/1.5/1.5 ms
+
+2025-06-10 17:41:31,284 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=6, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=102 flags=RA seq=0 win=0 rtt=1.5 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.5/1.5/1.5 ms
+
+2025-06-10 17:41:31,439 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=7, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=941 flags=RA seq=0 win=0 rtt=0.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.7/0.7/0.7 ms
+
+2025-06-10 17:41:31,589 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=8, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=301 flags=RA seq=0 win=0 rtt=0.5 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.5/0.5/0.5 ms
+
+2025-06-10 17:41:31,729 - attacker - WARNING - [MININET] 未收到回复: tcp_dst, seq=9, 输出: HPING 10.0.0.2 (h1-eth0 10.0.0.2): S set, 40 headers + 0 data bytes
+len=40 ip=10.0.0.2 ttl=64 DF id=0 sport=696 flags=RA seq=0 win=0 rtt=1.7 ms
+
+--- 10.0.0.2 hping statistic ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 1.7/1.7/1.7 ms
+
+2025-06-10 17:41:31,830 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 17:41:31,933 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:31,936 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:31,937 - topology - WARNING - 清空交换机 s1 (DPID=1) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:31,938 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2025-06-10 17:41:31,940 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /stats/flowentry/delete HTTP/1.1" 400 46
+2025-06-10 17:41:31,940 - topology - WARNING - 清空交换机 s2 (DPID=2) 流表失败: {"error": "object of type 'int' has no len()"}
+2025-06-10 17:41:33,539 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=0
+2025-06-10 17:41:33,641 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:33,742 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:34,368 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=3
+2025-06-10 17:41:34,997 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=4
+2025-06-10 17:41:35,099 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:35,200 - attacker - ERROR - [SCAPY] 发送探测包时出错: name 'ICMP' is not defined
+2025-06-10 17:41:35,817 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=7
+2025-06-10 17:41:36,443 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=8
+2025-06-10 17:41:37,068 - attacker - WARNING - [SCAPY] 超时未收到回复: ip_proto, seq=9
+2025-06-10 17:41:37,168 - attacker - ERROR - 无法获取基准RTT
+2025-06-10 18:01:59,382 - mininet - INFO - *** Stopping 1 controllers
+
+2025-06-10 18:01:59,383 - mininet - INFO - c0 
+2025-06-10 18:01:59,383 - mininet - INFO - 
+
+2025-06-10 18:01:59,383 - mininet - INFO - *** Stopping 5 links
+
+2025-06-10 18:01:59,383 - mininet - INFO - .
+2025-06-10 18:01:59,420 - mininet - INFO - .
+2025-06-10 18:01:59,454 - mininet - INFO - .
+2025-06-10 18:01:59,480 - mininet - INFO - .
+2025-06-10 18:01:59,505 - mininet - INFO - .
+2025-06-10 18:01:59,528 - mininet - INFO - 
+
+2025-06-10 18:01:59,528 - mininet - INFO - *** Stopping 2 switches
+
+2025-06-10 18:01:59,699 - mininet - INFO - s1 
+2025-06-10 18:01:59,699 - mininet - INFO - s2 
+2025-06-10 18:01:59,700 - mininet - INFO - 
+
+2025-06-10 18:01:59,700 - mininet - INFO - *** Stopping 4 hosts
+
+2025-06-10 18:01:59,700 - mininet - INFO - h1 
+2025-06-10 18:01:59,700 - mininet - INFO - h2 
+2025-06-10 18:01:59,701 - mininet - INFO - h3 
+2025-06-10 18:01:59,702 - mininet - INFO - h4 
+2025-06-10 18:01:59,702 - mininet - INFO - 
+*** Done
+

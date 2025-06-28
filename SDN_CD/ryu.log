@@ -1,0 +1,785 @@
+loading app ryu_app.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app ryu_app.py of MatchFieldSniffer
+匹配域嗅探控制器已启动
+instantiating app ryu.controller.ofp_handler of OFPHandler
+BRICK MatchFieldSniffer
+  CONSUMES EventOFPPacketIn
+  CONSUMES EventOFPSwitchFeatures
+BRICK ofp_event
+  PROVIDES EventOFPPacketIn TO {'MatchFieldSniffer': {'main'}}
+  PROVIDES EventOFPSwitchFeatures TO {'MatchFieldSniffer': {'config'}}
+  CONSUMES EventOFPEchoReply
+  CONSUMES EventOFPEchoRequest
+  CONSUMES EventOFPErrorMsg
+  CONSUMES EventOFPHello
+  CONSUMES EventOFPPortDescStatsReply
+  CONSUMES EventOFPPortStatus
+  CONSUMES EventOFPSwitchFeatures
+(117365) wsgi starting up on http://0.0.0.0:8081
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x70beb327d6a0> address:('127.0.0.1', 41496)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x70beb32834c0> address:('127.0.0.1', 41502)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x70beb3283640> address:('127.0.0.1', 41516)
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x70beb3237220>
+move onto config mode
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x70beb3237370>
+move onto config mode
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x215d54b9,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=1,n_buffers=0,n_tables=254)
+交换机 1 已连接
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x34cab54a,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=2,n_buffers=0,n_tables=254)
+交换机 2 已连接
+move onto main mode
+move onto main mode
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+[流表下发] switch=s1, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "tp_src": 1234, "tp_dst": 80, "nw_proto": 6, "dl_type": 2048}
+[流表下发] switch=s2, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "tp_src": 1234, "tp_dst": 80, "nw_proto": 6, "dl_type": 2048}
+[流表下发] switch=s1, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "tp_src": 1234, "tp_dst": 80, "dl_type": 2048, "nw_proto": 6}
+[流表下发] switch=s2, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "tp_src": 1234, "tp_dst": 80, "dl_type": 2048, "nw_proto": 6}
+loading app ryu_app.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app ryu_app.py of MatchFieldSniffer
+匹配域嗅探控制器已启动
+instantiating app ryu.controller.ofp_handler of OFPHandler
+BRICK MatchFieldSniffer
+  CONSUMES EventOFPPacketIn
+  CONSUMES EventOFPSwitchFeatures
+BRICK ofp_event
+  PROVIDES EventOFPPacketIn TO {'MatchFieldSniffer': {'main'}}
+  PROVIDES EventOFPSwitchFeatures TO {'MatchFieldSniffer': {'config'}}
+  CONSUMES EventOFPEchoReply
+  CONSUMES EventOFPEchoRequest
+  CONSUMES EventOFPErrorMsg
+  CONSUMES EventOFPHello
+  CONSUMES EventOFPPortDescStatsReply
+  CONSUMES EventOFPPortStatus
+  CONSUMES EventOFPSwitchFeatures
+(131474) wsgi starting up on http://0.0.0.0:8081
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x7bc4fc33a6a0> address:('127.0.0.1', 46568)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x7bc4fc3404c0> address:('127.0.0.1', 46584)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x7bc4fc340640> address:('127.0.0.1', 46594)
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x7bc4fc2f51f0>
+move onto config mode
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x7bc4fc2f5340>
+move onto config mode
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x19485516,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=1,n_buffers=0,n_tables=254)
+交换机 1 已连接
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0xd9a50b24,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=2,n_buffers=0,n_tables=254)
+交换机 2 已连接
+move onto main mode
+move onto main mode
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+[流表下发] switch=s1, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "dl_type": 2048}
+[流表下发] switch=s2, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "dl_type": 2048}
+loading app ryu_app.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app ryu_app.py of MatchFieldSniffer
+匹配域嗅探控制器已启动
+instantiating app ryu.controller.ofp_handler of OFPHandler
+BRICK MatchFieldSniffer
+  CONSUMES EventOFPPacketIn
+  CONSUMES EventOFPSwitchFeatures
+BRICK ofp_event
+  PROVIDES EventOFPPacketIn TO {'MatchFieldSniffer': {'main'}}
+  PROVIDES EventOFPSwitchFeatures TO {'MatchFieldSniffer': {'config'}}
+  CONSUMES EventOFPEchoReply
+  CONSUMES EventOFPEchoRequest
+  CONSUMES EventOFPErrorMsg
+  CONSUMES EventOFPHello
+  CONSUMES EventOFPPortDescStatsReply
+  CONSUMES EventOFPPortStatus
+  CONSUMES EventOFPSwitchFeatures
+(139107) wsgi starting up on http://0.0.0.0:8081
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x74457752d6a0> address:('127.0.0.1', 42260)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x7445775334c0> address:('127.0.0.1', 42272)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x744577533640> address:('127.0.0.1', 42282)
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x7445774e71f0>
+move onto config mode
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x7445774e7340>
+move onto config mode
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x6685135d,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=1,n_buffers=0,n_tables=254)
+交换机 1 已连接
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x8cb75e79,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=2,n_buffers=0,n_tables=254)
+交换机 2 已连接
+move onto main mode
+move onto main mode
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+[流表下发] switch=s1, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "dl_type": 2048}
+[流表下发] switch=s2, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "dl_type": 2048}
+loading app ryu_app.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app ryu_app.py of MatchFieldSniffer
+匹配域嗅探控制器已启动
+instantiating app ryu.controller.ofp_handler of OFPHandler
+BRICK MatchFieldSniffer
+  CONSUMES EventOFPPacketIn
+  CONSUMES EventOFPSwitchFeatures
+BRICK ofp_event
+  PROVIDES EventOFPPacketIn TO {'MatchFieldSniffer': {'main'}}
+  PROVIDES EventOFPSwitchFeatures TO {'MatchFieldSniffer': {'config'}}
+  CONSUMES EventOFPEchoReply
+  CONSUMES EventOFPEchoRequest
+  CONSUMES EventOFPErrorMsg
+  CONSUMES EventOFPHello
+  CONSUMES EventOFPPortDescStatsReply
+  CONSUMES EventOFPPortStatus
+  CONSUMES EventOFPSwitchFeatures
+(174666) wsgi starting up on http://0.0.0.0:8081
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x730dc79b66a0> address:('127.0.0.1', 46992)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x730dc79bc4c0> address:('127.0.0.1', 46998)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x730dc79bc640> address:('127.0.0.1', 47014)
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x730dc79701f0>
+move onto config mode
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x730dc7970340>
+move onto config mode
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0xbab74f95,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=1,n_buffers=0,n_tables=254)
+交换机 1 已连接
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x103bfae5,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=2,n_buffers=0,n_tables=254)
+交换机 2 已连接
+move onto main mode
+move onto main mode
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+[流表下发] switch=s1, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "nw_proto": 6, "dl_type": 2048}
+[流表下发] switch=s2, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "nw_proto": 6, "dl_type": 2048}
+[流表下发] switch=s1, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "tp_src": 1234, "tp_dst": 80, "dl_type": 2048, "nw_proto": 6}
+[流表下发] switch=s2, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "tp_src": 1234, "tp_dst": 80, "dl_type": 2048, "nw_proto": 6}
+loading app ryu_app.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app ryu_app.py of MatchFieldSniffer
+匹配域嗅探控制器已启动
+instantiating app ryu.controller.ofp_handler of OFPHandler
+BRICK MatchFieldSniffer
+  CONSUMES EventOFPPacketIn
+  CONSUMES EventOFPSwitchFeatures
+BRICK ofp_event
+  PROVIDES EventOFPPacketIn TO {'MatchFieldSniffer': {'main'}}
+  PROVIDES EventOFPSwitchFeatures TO {'MatchFieldSniffer': {'config'}}
+  CONSUMES EventOFPEchoReply
+  CONSUMES EventOFPEchoRequest
+  CONSUMES EventOFPErrorMsg
+  CONSUMES EventOFPHello
+  CONSUMES EventOFPPortDescStatsReply
+  CONSUMES EventOFPPortStatus
+  CONSUMES EventOFPSwitchFeatures
+(189884) wsgi starting up on http://0.0.0.0:8081
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x79c1a6c616a0> address:('127.0.0.1', 46288)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x79c1a6c674c0> address:('127.0.0.1', 46296)
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x79c1a6c7cbe0>
+move onto config mode
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x79c1a6c67640> address:('127.0.0.1', 46304)
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x79c1a6c21340>
+move onto config mode
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x92cccea2,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=1,n_buffers=0,n_tables=254)
+交换机 1 已连接
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0xf9c5337f,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=2,n_buffers=0,n_tables=254)
+move onto main mode
+交换机 2 已连接
+move onto main mode
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+[流表下发] switch=s1, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_dst": "10.0.0.2", "tp_dst": 80, "nw_proto": 6, "dl_type": 2048}
+[流表下发] switch=s2, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_dst": "10.0.0.2", "tp_dst": 80, "nw_proto": 6, "dl_type": 2048}
+loading app ryu_app.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app ryu_app.py of MatchFieldSniffer
+匹配域嗅探控制器已启动
+instantiating app ryu.controller.ofp_handler of OFPHandler
+BRICK MatchFieldSniffer
+  CONSUMES EventOFPPacketIn
+  CONSUMES EventOFPSwitchFeatures
+BRICK ofp_event
+  PROVIDES EventOFPPacketIn TO {'MatchFieldSniffer': {'main'}}
+  PROVIDES EventOFPSwitchFeatures TO {'MatchFieldSniffer': {'config'}}
+  CONSUMES EventOFPEchoReply
+  CONSUMES EventOFPEchoRequest
+  CONSUMES EventOFPErrorMsg
+  CONSUMES EventOFPHello
+  CONSUMES EventOFPPortDescStatsReply
+  CONSUMES EventOFPPortStatus
+  CONSUMES EventOFPSwitchFeatures
+(218366) wsgi starting up on http://0.0.0.0:8081
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x79d0d33ca6a0> address:('127.0.0.1', 46484)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x79d0d33d04c0> address:('127.0.0.1', 46488)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x79d0d33d0640> address:('127.0.0.1', 46496)
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x79d0d33841f0>
+move onto config mode
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x79d0d3384340>
+move onto config mode
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0xc6c32a3e,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=1,n_buffers=0,n_tables=254)
+交换机 1 已连接
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x6a275898,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=2,n_buffers=0,n_tables=254)
+交换机 2 已连接
+move onto main mode
+move onto main mode
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+[流表下发] switch=s1, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "tp_src": 1234, "tp_dst": 80, "nw_proto": 6, "dl_type": 2048}
+[流表下发] switch=s2, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "tp_src": 1234, "tp_dst": 80, "nw_proto": 6, "dl_type": 2048}
+(218366) accepted ('127.0.0.1', 58128)
+127.0.0.1 - - [10/Jun/2025 17:37:58] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.002651
+(218366) accepted ('127.0.0.1', 58140)
+127.0.0.1 - - [10/Jun/2025 17:37:58] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.001055
+[流表下发] switch=s1, match={}
+(218366) accepted ('127.0.0.1', 46028)
+127.0.0.1 - - [10/Jun/2025 17:38:00] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000628
+(218366) accepted ('127.0.0.1', 46042)
+127.0.0.1 - - [10/Jun/2025 17:38:00] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000409
+[流表下发] switch=s1, match={}
+(218366) accepted ('127.0.0.1', 46052)
+127.0.0.1 - - [10/Jun/2025 17:38:02] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000626
+(218366) accepted ('127.0.0.1', 46054)
+127.0.0.1 - - [10/Jun/2025 17:38:02] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000423
+[流表下发] switch=s1, match={}
+(218366) accepted ('127.0.0.1', 46062)
+127.0.0.1 - - [10/Jun/2025 17:38:04] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000275
+(218366) accepted ('127.0.0.1', 46074)
+127.0.0.1 - - [10/Jun/2025 17:38:04] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000177
+[流表下发] switch=s1, match={}
+(218366) accepted ('127.0.0.1', 46080)
+127.0.0.1 - - [10/Jun/2025 17:38:06] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000289
+(218366) accepted ('127.0.0.1', 46084)
+127.0.0.1 - - [10/Jun/2025 17:38:06] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000202
+[流表下发] switch=s1, match={}
+(218366) accepted ('127.0.0.1', 36034)
+127.0.0.1 - - [10/Jun/2025 17:38:09] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000630
+(218366) accepted ('127.0.0.1', 36036)
+127.0.0.1 - - [10/Jun/2025 17:38:09] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000446
+[流表下发] switch=s1, match={}
+(218366) accepted ('127.0.0.1', 36040)
+127.0.0.1 - - [10/Jun/2025 17:38:11] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000690
+(218366) accepted ('127.0.0.1', 36044)
+127.0.0.1 - - [10/Jun/2025 17:38:11] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000509
+[流表下发] switch=s1, match={}
+loading app ryu_app.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app ryu_app.py of MatchFieldSniffer
+匹配域嗅探控制器已启动
+instantiating app ryu.controller.ofp_handler of OFPHandler
+BRICK MatchFieldSniffer
+  CONSUMES EventOFPPacketIn
+  CONSUMES EventOFPSwitchFeatures
+BRICK ofp_event
+  PROVIDES EventOFPPacketIn TO {'MatchFieldSniffer': {'main'}}
+  PROVIDES EventOFPSwitchFeatures TO {'MatchFieldSniffer': {'config'}}
+  CONSUMES EventOFPEchoReply
+  CONSUMES EventOFPEchoRequest
+  CONSUMES EventOFPErrorMsg
+  CONSUMES EventOFPHello
+  CONSUMES EventOFPPortDescStatsReply
+  CONSUMES EventOFPPortStatus
+  CONSUMES EventOFPSwitchFeatures
+(222259) wsgi starting up on http://0.0.0.0:8081
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x76a1ddef56a0> address:('127.0.0.1', 34086)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x76a1ddefb4c0> address:('127.0.0.1', 34102)
+connected socket:<eventlet.greenio.base.GreenSocket object at 0x76a1ddefb640> address:('127.0.0.1', 34112)
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x76a1ddeb01f0>
+move onto config mode
+hello ev <ryu.controller.ofp_event.EventOFPHello object at 0x76a1ddeb0340>
+move onto config mode
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x1e711595,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=1,n_buffers=0,n_tables=254)
+交换机 1 已连接
+EVENT ofp_event->MatchFieldSniffer EventOFPSwitchFeatures
+switch features ev version=0x4,msg_type=0x6,msg_len=0x20,xid=0x1d28d9cc,OFPSwitchFeatures(auxiliary_id=0,capabilities=79,datapath_id=2,n_buffers=0,n_tables=254)
+交换机 2 已连接
+move onto main mode
+move onto main mode
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+EVENT ofp_event->MatchFieldSniffer EventOFPPacketIn
+[流表下发] switch=s1, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "tp_src": 1234, "tp_dst": 80, "nw_proto": 6, "dl_type": 2048}
+[流表下发] switch=s2, match={"dl_src": "00:00:00:00:00:01", "dl_dst": "00:00:00:00:00:02", "nw_src": "10.0.0.1", "nw_dst": "10.0.0.2", "tp_src": 1234, "tp_dst": 80, "nw_proto": 6, "dl_type": 2048}
+(222259) accepted ('127.0.0.1', 51572)
+127.0.0.1 - - [10/Jun/2025 17:41:17] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.003533
+(222259) accepted ('127.0.0.1', 51578)
+127.0.0.1 - - [10/Jun/2025 17:41:17] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000878
+[流表下发] switch=s1, match={}
+(222259) accepted ('127.0.0.1', 56500)
+127.0.0.1 - - [10/Jun/2025 17:41:20] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000313
+(222259) accepted ('127.0.0.1', 56514)
+127.0.0.1 - - [10/Jun/2025 17:41:20] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000518
+[流表下发] switch=s1, match={}
+(222259) accepted ('127.0.0.1', 56516)
+127.0.0.1 - - [10/Jun/2025 17:41:22] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000571
+(222259) accepted ('127.0.0.1', 56528)
+127.0.0.1 - - [10/Jun/2025 17:41:22] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000410
+[流表下发] switch=s1, match={}
+(222259) accepted ('127.0.0.1', 56530)
+127.0.0.1 - - [10/Jun/2025 17:41:24] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.002243
+(222259) accepted ('127.0.0.1', 56540)
+127.0.0.1 - - [10/Jun/2025 17:41:24] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000634
+[流表下发] switch=s1, match={}
+(222259) accepted ('127.0.0.1', 56550)
+127.0.0.1 - - [10/Jun/2025 17:41:26] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000643
+(222259) accepted ('127.0.0.1', 56552)
+127.0.0.1 - - [10/Jun/2025 17:41:26] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000376
+[流表下发] switch=s1, match={}
+(222259) accepted ('127.0.0.1', 51326)
+127.0.0.1 - - [10/Jun/2025 17:41:29] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000770
+(222259) accepted ('127.0.0.1', 51342)
+127.0.0.1 - - [10/Jun/2025 17:41:29] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000486
+[流表下发] switch=s1, match={}
+(222259) accepted ('127.0.0.1', 51352)
+127.0.0.1 - - [10/Jun/2025 17:41:31] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000675
+(222259) accepted ('127.0.0.1', 51358)
+127.0.0.1 - - [10/Jun/2025 17:41:31] "POST /stats/flowentry/delete HTTP/1.1" 400 195 0.000432
+[流表下发] switch=s1, match={}
